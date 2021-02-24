@@ -5,6 +5,7 @@ Projeto da rocketseat nlw na trila de node
 - [typeorm](https://typeorm.io/#/using-ormconfig) -  ORM baseado em entidades
 - [express](https://expressjs.com/) - Framework para servidor
 - [uuid](https://github.com/uuidjs/uuid) - gerador de ids únicos, como estamos usando uma ORM, pode ser que algum banco não comporte o autoincrement.
+ - [@types/express](https://www.npmjs.com/package/@types/express) - Permite visualizar métodos de henrança do express no modelo de typescript
 
 # Comandos
 - gerar config do typescrypt `yarn tsc --init`
