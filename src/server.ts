@@ -1,5 +1,7 @@
+import 'reflect-metadata'
+import './database';
 import express from 'express';
-
+import {router} from './routes';
 const app = express();
 
 /**
@@ -10,13 +12,7 @@ const app = express();
  * PATCH => ALTERACAO ESPECIFICA
  */
 
-app.get("/", (request, response) => {
-    // return response.send("Hello World Nlw4");
-    return response.json({ message: "Hello World Nlw4"});
-});
-
-app.post("/", (request, response) => {
-    return response.json({ message: "Dados salvo com sucesso"});
-});
+app.use(express.json());
+app.use(router);
 
 app.listen(3333,() => console.log("Servidor nlw4 rodando!"));
