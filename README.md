@@ -7,6 +7,7 @@ Projeto da rocketseat nlw na trila de node
 - [uuid](https://github.com/uuidjs/uuid) - gerador de ids únicos, como estamos usando uma ORM, pode ser que algum banco não comporte o autoincrement.
 
 # Comandos
+- gerar config do typescrypt `yarn tsc --init`
 - subir aplicação em dev `yarn dev`
 - listar opções da orm `yarn typeorm`
 
