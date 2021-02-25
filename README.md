@@ -22,3 +22,28 @@ Projeto da rocketseat nlw na trila de node
 
 # Observação
 - o node por padrão não entende o formato .ts que é nosso typescript sendo necessário utilizarmos um transpilador chamado [typscript](https://www.typescriptlang.org/docs/), para rodar algum script deve chamar `ts-node-dev src/server.ts` e não `node src/server.ts` .
+
+
+# Testes Automatizados
+- 1 : Testes unitários
+    - começar o teste para depois começar a aplicação
+    - será utilizado mocks para testar dados
+
+- 2 : Testes de integração
+    - Request
+        - testar rotas
+        - testar controllers
+        - testa repositorio
+    - Response
+        - testa resposta do repositorio
+        - testa resposta do controller
+        - testa resposta rota
+
+- 3 : Ponta  a ponta (E2E)
+    - testa desde o frontend até o backend, desce um clique no botão
+
+
+<!-- yarn add jest @types/jest -D
+yarn add ts-jest
+yarn add supertest @types/supertest -D
+ -->
