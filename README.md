@@ -12,7 +12,7 @@ Projeto da rocketseat nlw na trila de node
 - [@types/supertest](https://www.npmjs.com/package/@types/supertest)
 - [nodemailer](https://nodemailer.com/usage/) - utilizado para enviar email e tem um método de test que gera um link para visualizar como o email ira ficar
 - [handlebars](https://handlebarsjs.com/) - auxiliar para criar views/templates de modo facil e dinâmico
-- [yup validation]https://github.com/jquense/yup() - validador simples e objetivo de parametros
+- [yup validation](https://github.com/jquense/yup) - validador simples e objetivo de parametros
 - [express-async-errors](https://www.npmjs.com/package/express-async-errors) - quando criamos um middleware para controlar erros é necessário ter essa lib
 
 # Comandos
